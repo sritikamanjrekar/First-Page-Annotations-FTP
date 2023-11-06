@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Defines the viewport settings for responsive design -->
   <link rel="stylesheet" href="styles.css"> <!-- Links an external CSS stylesheet named "styles.css" -->
-  <script src="https://github.com/lightlessdays/web-ar/blob/main/focus.js" defer></script>
+  <!-- <script src="https://github.com/lightlessdays/web-ar/blob/main/focus.js" defer></script> -->
   <!-- Links an external JavaScript file and specifies that it should be loaded after the HTML is parsed (defer attribute) -->
 </head>
 
@@ -15,18 +15,19 @@
   <br><!-- Inserts a line break (not visible on the page) -->
   <div>
     <center>
-      <h1>File Transfer Protocol</h1> <!-- Heading element -->
+      <h1>File Transfer Protocols</h1> <!-- Heading element -->
 
       <!-- Button element with an onclick event to navigate to a specific URL when clicked -->
-      <button id="goToPageButton" onclick="window.location.href = 'https://sritikamanjrekar.github.io/Phase-1B/'">View
-        in your space</button>
+      <button id="goToPageButton" onclick="window.location.href = 'https://sritikamanjrekar.github.io/Phase-1B/'">
+        View in your space</button>
     </center>
 
   </div>
   <hr> <!-- Horizontal rule (a visible line across the page) -->
   <div class="model-container"> <!-- Container for a 3D model viewer and related content -->
     <model-viewer src="rak_server.glb" id="hotspot-camera-view-demo" ios-src="server.usdz"
-      poster="https://raw.githubusercontent.com/lightlessdays/web-ar/main/loading_screen.gif" alt="FTP Server 3D model"
+      poster="https://raw.githubusercontent.com/lightlessdays/web-ar/main/loading_screen.gif" 
+      alt="FTP Server 3D model"
       shadow-intensity="2" camera-controls auto-rotate ar>
 
 <!-- 3D model viewer element with various attributes -->
